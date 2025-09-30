@@ -44,7 +44,7 @@ Primitive data types **immutable** hote hain aur **value** ke through store hote
 
 6. **📌 BigInt** – Large integers beyond `Number` limit  
    ```js
-   let big = 12345678901234567890n;
+   let big = **12345678901234567890n**;
    ```
 
 7. **📌 Symbol** – Unique identifiers  
