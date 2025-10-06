@@ -8,3 +8,5 @@ const user = {
 }
 
 user.welcomemassage()
+user.username = "sam"
+user.welcomemassage()
