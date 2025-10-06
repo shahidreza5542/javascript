@@ -11,16 +11,43 @@ if (true) {
 // // console.log(b);
 // console.log(c);
 
-function one(){
+function one() {
     const username = "shahid"
-    
+
     function two() {
         const website = "youtube"
         console.log(username);
-        
     }
     // console.log(website); // errors
     two()
 }
 
-one()
+// one()
+
+if (true) {
+    const username = 'shahid'
+    if (username === "shahid") {
+        const website = ' youtube'
+        // console.log(username + website);
+
+    }
+    // console.log(website); // error
+
+}
+
+// console.log(username); // error
+
+
+// ++++++++++++++++++++++ interesting ++++++++++++++
+
+addone(5) // work
+function addone(num) {
+    return num + 1
+}
+
+addTwo(5) // error
+
+const addTwo = function(num){
+    return num + 2
+}
+
